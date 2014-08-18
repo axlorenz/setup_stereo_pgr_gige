@@ -1,0 +1,10 @@
+<launch>
+
+<node pkg="setup_stereo_pgr_gige" type="setup_stereo_pgr_gige" name="setup_stereo_pgr_gige">
+	<param name="ipaddress_left" value="192.168.4.2" />	
+	<param name="ipaddress_right" value="192.168.5.2" />	
+	<param name="packetsize" value="9000" />
+	<param name="packetdelay" value="400" />
+
+</node>
+</launch>

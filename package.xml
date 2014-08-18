@@ -1,0 +1,15 @@
+<package>
+  <name>setup_stereo_pgr_gige</name>
+  <version>1.0.1</version>
+  <description>
+The node tries to detect the two specified PointGrey cameras and sets them up with the given configuration: IP_Address and Package Size as well as Package Delay for each GigE camera. You need to have the FlyCap SDK installed for this node to work.
+  </description>
+  <maintainer email="axel.lorenz84@gmail.com">Axel Lorenz</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+
+  <run_depend>roscpp</run_depend>
+</package>
