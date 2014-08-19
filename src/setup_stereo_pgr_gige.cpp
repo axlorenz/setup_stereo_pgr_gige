@@ -13,7 +13,7 @@ const string default_mac_right = "00:B0:9D:B8:10:6C";
 const string default_ip_left = "192.168.4.2";
 const string default_ip_right = "192.168.5.2";
 
-const string  default_ip_submask = "255.255.0.0";
+const string  default_ip_submask = "255.255.255.0";
 const string  default_ip_gateway =  "0.0.0.0";
 
 const  int default_sn_left = 12062824;
